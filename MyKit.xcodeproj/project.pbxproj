@@ -177,9 +177,9 @@
 			productReference = 787BF09013EBDB00002291AF /* MyKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		787BF0A713EBDB01002291AF /* MyKitTests */ = {
+		787BF0A713EBDB01002291AF /* MyKitFrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787BF0BD13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitTests" */;
+			buildConfigurationList = 787BF0BD13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitFrameworkTests" */;
 			buildPhases = (
 				787BF0A313EBDB01002291AF /* Sources */,
 				787BF0A413EBDB01002291AF /* Frameworks */,
@@ -191,7 +191,7 @@
 			dependencies = (
 				787BF0AD13EBDB01002291AF /* PBXTargetDependency */,
 			);
-			name = MyKitTests;
+			name = MyKitFrameworkTests;
 			productName = MyKitTests;
 			productReference = 787BF0A813EBDB01002291AF /* MyKitTests.octest */;
 			productType = "com.apple.product-type.bundle";
@@ -218,7 +218,7 @@
 			projectRoot = "";
 			targets = (
 				787BF08F13EBDB00002291AF /* MyKitFramework */,
-				787BF0A713EBDB01002291AF /* MyKitTests */,
+				787BF0A713EBDB01002291AF /* MyKitFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -424,7 +424,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		787BF0BD13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitTests" */ = {
+		787BF0BD13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitFrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				787BF0BE13EBDB01002291AF /* Debug */,

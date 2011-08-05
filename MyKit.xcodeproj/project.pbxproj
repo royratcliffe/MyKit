@@ -26,6 +26,7 @@
 		78C0804713EBF7E60069FE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C0804513EBF7E60069FE11 /* InfoPlist.strings */; };
 		78C0805113EBF9810069FE11 /* NSObject+MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */; };
 		78C0805213EBF98B0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		78C0805313EBFC680069FE11 /* MyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BF0B613EBDB01002291AF /* MyKitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -444,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0805313EBFC680069FE11 /* MyKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

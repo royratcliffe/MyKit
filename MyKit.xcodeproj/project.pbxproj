@@ -14,8 +14,9 @@
 		787BF0AE13EBDB01002291AF /* MyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09013EBDB00002291AF /* MyKit.framework */; };
 		787BF0B413EBDB01002291AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787BF0B213EBDB01002291AF /* InfoPlist.strings */; };
 		787BF0B713EBDB01002291AF /* MyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BF0B613EBDB01002291AF /* MyKitTests.m */; };
-		78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; };
+		78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		78C0802313EBE9EC0069FE11 /* NSObject+MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */; };
+		78C0802513EBF48A0069FE11 /* MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802413EBF48A0069FE11 /* MyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		787BF0B613EBDB01002291AF /* MyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKitTests.m; sourceTree = "<group>"; };
 		78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyKit.h"; sourceTree = "<group>"; };
 		78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyKit.m"; sourceTree = "<group>"; };
+		78C0802413EBF48A0069FE11 /* MyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		787BF09913EBDB00002291AF /* MyKit */ = {
 			isa = PBXGroup;
 			children = (
+				78C0802413EBF48A0069FE11 /* MyKit.h */,
 				78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */,
 				78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */,
 				787BF09A13EBDB00002291AF /* Supporting Files */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */,
+				78C0802513EBF48A0069FE11 /* MyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

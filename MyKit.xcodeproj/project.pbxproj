@@ -602,7 +602,9 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				PRODUCT_NAME = MyKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -617,7 +619,9 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				PRODUCT_NAME = MyKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;

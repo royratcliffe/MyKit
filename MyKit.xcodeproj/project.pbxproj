@@ -14,6 +14,7 @@
 		787BF0AE13EBDB01002291AF /* MyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09013EBDB00002291AF /* MyKit.framework */; };
 		787BF0B413EBDB01002291AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787BF0B213EBDB01002291AF /* InfoPlist.strings */; };
 		787BF0B713EBDB01002291AF /* MyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BF0B613EBDB01002291AF /* MyKitTests.m */; };
+		78AFBD8213EC050800BBFC62 /* MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802413EBF48A0069FE11 /* MyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		78C0802313EBE9EC0069FE11 /* NSObject+MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */; };
 		78C0802513EBF48A0069FE11 /* MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802413EBF48A0069FE11 /* MyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -251,6 +252,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AFBD8213EC050800BBFC62 /* MyKit.h in Headers */,
 				78C0805213EBF98B0069FE11 /* NSObject+MyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +700,7 @@
 				78C0804D13EBF7E60069FE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C0804E13EBF7E60069FE11 /* Build configuration list for PBXNativeTarget "MyKitLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +709,7 @@
 				78C0805013EBF7E60069FE11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

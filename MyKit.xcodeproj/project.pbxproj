@@ -634,6 +634,7 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyKitLibraryTests/MyKitLibraryTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -652,6 +653,7 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyKitLibraryTests/MyKitLibraryTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

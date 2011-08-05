@@ -22,8 +22,10 @@
 		78C0803B13EBF7E60069FE11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0803A13EBF7E50069FE11 /* UIKit.framework */; };
 		78C0803C13EBF7E60069FE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0802B13EBF7E50069FE11 /* Foundation.framework */; };
 		78C0803E13EBF7E60069FE11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0803D13EBF7E60069FE11 /* CoreGraphics.framework */; };
-		78C0804113EBF7E60069FE11 /* libMyKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0802A13EBF7E50069FE11 /* libMyKitLibrary.a */; };
+		78C0804113EBF7E60069FE11 /* libMyKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0802A13EBF7E50069FE11 /* libMyKit.a */; };
 		78C0804713EBF7E60069FE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C0804513EBF7E60069FE11 /* InfoPlist.strings */; };
+		78C0805113EBF9810069FE11 /* NSObject+MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */; };
+		78C0805213EBF98B0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +63,7 @@
 		78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyKit.h"; sourceTree = "<group>"; };
 		78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyKit.m"; sourceTree = "<group>"; };
 		78C0802413EBF48A0069FE11 /* MyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKit.h; sourceTree = "<group>"; };
-		78C0802A13EBF7E50069FE11 /* libMyKitLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyKitLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C0802A13EBF7E50069FE11 /* libMyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C0802B13EBF7E50069FE11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78C0802F13EBF7E50069FE11 /* MyKitLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyKitLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		78C0803813EBF7E50069FE11 /* MyKitLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKitLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +108,7 @@
 				78C0803B13EBF7E60069FE11 /* UIKit.framework in Frameworks */,
 				78C0803C13EBF7E60069FE11 /* Foundation.framework in Frameworks */,
 				78C0803E13EBF7E60069FE11 /* CoreGraphics.framework in Frameworks */,
-				78C0804113EBF7E60069FE11 /* libMyKitLibrary.a in Frameworks */,
+				78C0804113EBF7E60069FE11 /* libMyKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +132,7 @@
 			children = (
 				787BF09013EBDB00002291AF /* MyKit.framework */,
 				787BF0A813EBDB01002291AF /* MyKitTests.octest */,
-				78C0802A13EBF7E50069FE11 /* libMyKitLibrary.a */,
+				78C0802A13EBF7E50069FE11 /* libMyKit.a */,
 				78C0803813EBF7E50069FE11 /* MyKitLibraryTests.octest */,
 			);
 			name = Products;
@@ -248,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0805213EBF98B0069FE11 /* NSObject+MyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +308,7 @@
 			);
 			name = MyKitLibrary;
 			productName = MyKitLibrary;
-			productReference = 78C0802A13EBF7E50069FE11 /* libMyKitLibrary.a */;
+			productReference = 78C0802A13EBF7E50069FE11 /* libMyKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		78C0803713EBF7E50069FE11 /* MyKitLibraryTests */ = {
@@ -433,6 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0805113EBF9810069FE11 /* NSObject+MyKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +598,7 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -609,7 +613,7 @@
 				GCC_PREFIX_HEADER = "MyKitLibrary/MyKitLibrary-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;

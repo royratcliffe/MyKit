@@ -24,7 +24,6 @@
 		78C0803E13EBF7E60069FE11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0803D13EBF7E60069FE11 /* CoreGraphics.framework */; };
 		78C0804113EBF7E60069FE11 /* libMyKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0802A13EBF7E50069FE11 /* libMyKitLibrary.a */; };
 		78C0804713EBF7E60069FE11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C0804513EBF7E60069FE11 /* InfoPlist.strings */; };
-		78C0804A13EBF7E60069FE11 /* MyKitLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0804913EBF7E60069FE11 /* MyKitLibraryTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +69,6 @@
 		78C0803D13EBF7E60069FE11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		78C0804413EBF7E60069FE11 /* MyKitLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKitLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		78C0804613EBF7E60069FE11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78C0804813EBF7E60069FE11 /* MyKitLibraryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKitLibraryTests.h; sourceTree = "<group>"; };
-		78C0804913EBF7E60069FE11 /* MyKitLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKitLibraryTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,8 +218,6 @@
 		78C0804213EBF7E60069FE11 /* MyKitLibraryTests */ = {
 			isa = PBXGroup;
 			children = (
-				78C0804813EBF7E60069FE11 /* MyKitLibraryTests.h */,
-				78C0804913EBF7E60069FE11 /* MyKitLibraryTests.m */,
 				78C0804313EBF7E60069FE11 /* Supporting Files */,
 			);
 			path = MyKitLibraryTests;
@@ -445,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C0804A13EBF7E60069FE11 /* MyKitLibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

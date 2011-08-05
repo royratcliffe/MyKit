@@ -33,16 +33,16 @@
 		787BF09613EBDB00002291AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		787BF09713EBDB00002291AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		787BF09813EBDB00002291AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		787BF09B13EBDB01002291AF /* MyKit-Info.plist */ = {isa = PBXFileReference; path = "MyKit-Info.plist"; sourceTree = "<group>"; };
+		787BF09B13EBDB01002291AF /* MyKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKit-Info.plist"; sourceTree = "<group>"; };
 		787BF09D13EBDB01002291AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		787BF09F13EBDB01002291AF /* MyKit-Prefix.pch */ = {isa = PBXFileReference; path = "MyKit-Prefix.pch"; sourceTree = "<group>"; };
-		787BF0A013EBDB01002291AF /* MyKit.h */ = {isa = PBXFileReference; path = MyKit.h; sourceTree = "<group>"; };
+		787BF09F13EBDB01002291AF /* MyKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyKit-Prefix.pch"; sourceTree = "<group>"; };
+		787BF0A013EBDB01002291AF /* MyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKit.h; sourceTree = "<group>"; };
 		787BF0A113EBDB01002291AF /* MyKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKit.m; sourceTree = "<group>"; };
 		787BF0A813EBDB01002291AF /* MyKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787BF0A913EBDB01002291AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		787BF0B113EBDB01002291AF /* MyKitTests-Info.plist */ = {isa = PBXFileReference; path = "MyKitTests-Info.plist"; sourceTree = "<group>"; };
+		787BF0B113EBDB01002291AF /* MyKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKitTests-Info.plist"; sourceTree = "<group>"; };
 		787BF0B313EBDB01002291AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		787BF0B513EBDB01002291AF /* MyKitTests.h */ = {isa = PBXFileReference; path = MyKitTests.h; sourceTree = "<group>"; };
+		787BF0B513EBDB01002291AF /* MyKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKitTests.h; sourceTree = "<group>"; };
 		787BF0B613EBDB01002291AF /* MyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,6 +202,7 @@
 		787BF08613EBDB00002291AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
 			buildConfigurationList = 787BF08913EBDB00002291AF /* Build configuration list for PBXProject "MyKit" */;

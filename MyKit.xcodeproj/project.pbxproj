@@ -159,9 +159,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		787BF08F13EBDB00002291AF /* MyKit */ = {
+		787BF08F13EBDB00002291AF /* MyKitFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787BF0BA13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKit" */;
+			buildConfigurationList = 787BF0BA13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitFramework" */;
 			buildPhases = (
 				787BF08B13EBDB00002291AF /* Sources */,
 				787BF08C13EBDB00002291AF /* Frameworks */,
@@ -172,7 +172,7 @@
 			);
 			dependencies = (
 			);
-			name = MyKit;
+			name = MyKitFramework;
 			productName = MyKit;
 			productReference = 787BF09013EBDB00002291AF /* MyKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -217,7 +217,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				787BF08F13EBDB00002291AF /* MyKit */,
+				787BF08F13EBDB00002291AF /* MyKitFramework */,
 				787BF0A713EBDB01002291AF /* MyKitTests */,
 			);
 		};
@@ -280,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		787BF0AD13EBDB01002291AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 787BF08F13EBDB00002291AF /* MyKit */;
+			target = 787BF08F13EBDB00002291AF /* MyKitFramework */;
 			targetProxy = 787BF0AC13EBDB01002291AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		787BF0BA13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKit" */ = {
+		787BF0BA13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				787BF0BB13EBDB01002291AF /* Debug */,

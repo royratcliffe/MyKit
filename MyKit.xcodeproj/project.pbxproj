@@ -14,6 +14,8 @@
 		787BF0AE13EBDB01002291AF /* MyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09013EBDB00002291AF /* MyKit.framework */; };
 		787BF0B413EBDB01002291AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787BF0B213EBDB01002291AF /* InfoPlist.strings */; };
 		787BF0B713EBDB01002291AF /* MyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BF0B613EBDB01002291AF /* MyKitTests.m */; };
+		78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */; };
+		78C0802313EBE9EC0069FE11 /* NSObject+MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		787BF0B313EBDB01002291AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		787BF0B513EBDB01002291AF /* MyKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKitTests.h; sourceTree = "<group>"; };
 		787BF0B613EBDB01002291AF /* MyKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKitTests.m; sourceTree = "<group>"; };
+		78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyKit.h"; sourceTree = "<group>"; };
+		78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 		787BF09913EBDB00002291AF /* MyKit */ = {
 			isa = PBXGroup;
 			children = (
+				78C0802013EBE9EC0069FE11 /* NSObject+MyKit.h */,
+				78C0802113EBE9EC0069FE11 /* NSObject+MyKit.m */,
 				787BF09A13EBDB00002291AF /* Supporting Files */,
 			);
 			path = MyKit;
@@ -148,6 +154,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0802213EBE9EC0069FE11 /* NSObject+MyKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0802313EBE9EC0069FE11 /* NSObject+MyKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -361,7 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyKit/MyKit-Prefix.pch";
 				INFOPLIST_FILE = "MyKit/MyKit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyKit;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -375,7 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyKit/MyKit-Prefix.pch";
 				INFOPLIST_FILE = "MyKit/MyKit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyKit;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MyKit' target in the 'MyKit' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

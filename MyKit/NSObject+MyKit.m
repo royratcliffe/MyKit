@@ -24,6 +24,11 @@
 
 #import "NSObject+MyKit.h"
 
-@implementation NSObject (MyKit)
+@implementation NSObject(MyKit)
+
+- (NSString *)stringFromClass
+{
+	return NSStringFromClass([self class]);
+}
 
 @end

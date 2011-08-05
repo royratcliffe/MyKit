@@ -24,6 +24,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (MyKit)
+@interface NSObject(MyKit)
+
+- (NSString *)stringFromClass;
 
 @end

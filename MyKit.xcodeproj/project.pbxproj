@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		787BF09413EBDB00002291AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09313EBDB00002291AF /* Cocoa.framework */; };
 		787BF09E13EBDB01002291AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 787BF09C13EBDB01002291AF /* InfoPlist.strings */; };
-		787BF0A213EBDB01002291AF /* MyKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BF0A113EBDB01002291AF /* MyKit.m */; };
 		787BF0AA13EBDB01002291AF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF0A913EBDB01002291AF /* SenTestingKit.framework */; };
 		787BF0AB13EBDB01002291AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09313EBDB00002291AF /* Cocoa.framework */; };
 		787BF0AE13EBDB01002291AF /* MyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787BF09013EBDB00002291AF /* MyKit.framework */; };
@@ -36,9 +35,7 @@
 		787BF09B13EBDB01002291AF /* MyKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKit-Info.plist"; sourceTree = "<group>"; };
 		787BF09D13EBDB01002291AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		787BF09F13EBDB01002291AF /* MyKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyKit-Prefix.pch"; sourceTree = "<group>"; };
-		787BF0A013EBDB01002291AF /* MyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyKit.h; sourceTree = "<group>"; };
-		787BF0A113EBDB01002291AF /* MyKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKit.m; sourceTree = "<group>"; };
-		787BF0A813EBDB01002291AF /* MyKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		787BF0A813EBDB01002291AF /* MyKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyKitTests.octest; path = MyKitFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787BF0A913EBDB01002291AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		787BF0B113EBDB01002291AF /* MyKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKitTests-Info.plist"; sourceTree = "<group>"; };
 		787BF0B313EBDB01002291AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -110,8 +107,6 @@
 		787BF09913EBDB00002291AF /* MyKit */ = {
 			isa = PBXGroup;
 			children = (
-				787BF0A013EBDB01002291AF /* MyKit.h */,
-				787BF0A113EBDB01002291AF /* MyKit.m */,
 				787BF09A13EBDB00002291AF /* Supporting Files */,
 			);
 			path = MyKit;
@@ -263,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787BF0A213EBDB01002291AF /* MyKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +417,7 @@
 				787BF0BC13EBDB01002291AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		787BF0BD13EBDB01002291AF /* Build configuration list for PBXNativeTarget "MyKitFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +426,7 @@
 				787BF0BF13EBDB01002291AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

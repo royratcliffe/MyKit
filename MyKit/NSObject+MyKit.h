@@ -24,6 +24,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (NSObject_MyKit)
+@interface NSObject (MyKit)
 
 @end

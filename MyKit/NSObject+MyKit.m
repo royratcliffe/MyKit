@@ -24,6 +24,6 @@
 
 #import "NSObject+MyKit.h"
 
-@implementation NSObject (NSObject_MyKit)
+@implementation NSObject (MyKit)
 
 @end
